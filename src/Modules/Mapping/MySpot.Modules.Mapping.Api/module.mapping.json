@@ -1,0 +1,8 @@
+{
+  "mapping": {
+    "module": {
+      "name": "Mapping",
+      "enabled": true
+    }
+  }
+}

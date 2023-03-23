@@ -1,0 +1,8 @@
+{
+  "parkingSpots": {
+    "module": {
+      "name": "Parking Spots",
+      "enabled": true
+    }
+  }
+}

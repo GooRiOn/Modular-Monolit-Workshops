@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Availability\MySpot.Modules.Availability.Api\MySpot.Modules.Availability.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Mapping\MySpot.Modules.Mapping.Api\MySpot.Modules.Mapping.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Notifications\MySpot.Modules.Notifications.Api\MySpot.Modules.Notifications.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\ParkingSpots\MySpot.Modules.ParkingSpots.Api\MySpot.Modules.ParkingSpots.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Reservations\MySpot.Modules.Reservations.Api\MySpot.Modules.Reservations.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Saga\MySpot.Modules.Saga.Api\MySpot.Modules.Saga.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Users\MySpot.Modules.Users.Api\MySpot.Modules.Users.Api.csproj" />
+    <ProjectReference Include="..\..\Shared\MySpot.Shared.Infrastructure\MySpot.Shared.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

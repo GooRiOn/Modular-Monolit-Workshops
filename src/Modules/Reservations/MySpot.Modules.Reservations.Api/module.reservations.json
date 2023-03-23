@@ -1,0 +1,8 @@
+{
+  "reservations": {
+    "module": {
+      "name": "Reservations",
+      "enabled": true
+    }
+  }
+}

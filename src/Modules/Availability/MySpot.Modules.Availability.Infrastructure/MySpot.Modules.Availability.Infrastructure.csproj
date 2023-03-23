@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\Shared\MySpot.Shared.Infrastructure\MySpot.Shared.Infrastructure.csproj" />
+      <ProjectReference Include="..\MySpot.Modules.Availability.Application\MySpot.Modules.Availability.Application.csproj" />
+    </ItemGroup>
+
+</Project>

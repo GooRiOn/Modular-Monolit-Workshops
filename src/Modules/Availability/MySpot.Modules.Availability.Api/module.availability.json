@@ -1,0 +1,8 @@
+{
+  "availability": {
+    "module": {
+      "name": "Availability",
+      "enabled": true
+    }
+  }
+}
