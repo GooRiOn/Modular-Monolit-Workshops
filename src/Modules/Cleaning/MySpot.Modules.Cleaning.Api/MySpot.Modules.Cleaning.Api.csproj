@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MySpot.Modules.Cleaning.Core\MySpot.Modules.Cleaning.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="module.cleaning.development.json" />
+      <Content Include="module.cleaning.development.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="module.cleaning.json" />
+      <Content Include="module.cleaning.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+
+</Project>

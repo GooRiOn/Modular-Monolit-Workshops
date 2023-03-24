@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Modules\Availability\MySpot.Modules.Availability.Api\MySpot.Modules.Availability.Api.csproj" />
+    <ProjectReference Include="..\..\Modules\Cleaning\MySpot.Modules.Cleaning.Api\MySpot.Modules.Cleaning.Api.csproj" />
     <ProjectReference Include="..\..\Modules\Mapping\MySpot.Modules.Mapping.Api\MySpot.Modules.Mapping.Api.csproj" />
     <ProjectReference Include="..\..\Modules\Notifications\MySpot.Modules.Notifications.Api\MySpot.Modules.Notifications.Api.csproj" />
     <ProjectReference Include="..\..\Modules\ParkingSpots\MySpot.Modules.ParkingSpots.Api\MySpot.Modules.ParkingSpots.Api.csproj" />
